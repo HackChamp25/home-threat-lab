@@ -1,0 +1,54 @@
+site_name: home-threat-lab
+repo_url: https://github.com/HackChamp25/home-threat-lab
+site_url: https://HackChamp25.github.io/home-threat-lab
+site_description: A tool that passively monitors a small network, detects common threats, and explains them in plain language.
+site_author: Akash Joshi
+edit_uri: edit/main/docs/
+repo_name: HackChamp25/home-threat-lab
+copyright: Maintained by <a href="https://HackChamp25.com">Florian</a>.
+
+nav:
+  - Home: index.md
+  - Modules: modules.md
+plugins:
+  - search
+  - mkdocstrings:
+      handlers:
+        python:
+          setup_commands:
+            - import sys
+            - sys.path.append('../')
+theme:
+  name: material
+  feature:
+    tabs: true
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: white
+      accent: deep orange
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: deep orange
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  icon:
+    repo: fontawesome/brands/github
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/HackChamp25/home-threat-lab
+    - icon: fontawesome/brands/python
+      link: https://pypi.org/project/home-threat-lab
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
