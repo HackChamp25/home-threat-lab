@@ -14,11 +14,11 @@ This project is designed as a **learning tool** — small scope, but strong fund
    
 
 flowchart TD
-    A[Run capture.py] --> B[Parse CLI args (--iface)]
-    B --> C[Setup logging (logger_config.py)]
-    C --> D[Load inventory.json]
-    D --> E[Start packet sniffing (Scapy)]
-    E --> F[packet_handler()]
-    F --> G[Update inventory.json]
-    F --> H[Alert Manager (future)]
-    H --> I[alerts.json]
+A[Run capture.py] --> B[Parse CLI args (--iface)]
+B --> C[Setup logging (logger_config.py)]
+C --> D[Load inventory.json]
+D --> E[Start packet sniffing (Scapy)]
+E --> F[packet_handler()]
+F --> G[Update inventory.json]
+G --> H[Alert Manager (future)]
+H --> I[alerts.json]
