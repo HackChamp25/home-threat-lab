@@ -12,6 +12,9 @@ packages = [
 
 [tool.poetry.dependencies]
 python = ">=3.8,<4.0"
+scapy = "^2.6.1"
+sqlite-utils = "^3.38"
+rich = "^14.1.0"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^7.2.0"

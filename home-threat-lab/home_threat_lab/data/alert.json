@@ -1,0 +1,164 @@
+[
+    {
+        "id": "c41820fa-3cc7-4c1c-a832-3bed62e382c3",
+        "timestamp": "2025-09-27T10:06:21.388376+00:00z",
+        "mac": "e0:d4:e8:a2:d9:6f",
+        "ip": null,
+        "device": "e0:d4:e8:a2:d9:6f",
+        "type": "Suspecious DNS query length",
+        "severity": "High",
+        "description": "query 6.c.7.c.0.c.e.f.f.f.2.6.3.d.2.e.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa. is unusually long (5) chars)",
+        "recommendation": "check for possible DGA/malware communication",
+        "evidence": {
+            "query": "6.c.7.c.0.c.e.f.f.f.2.6.3.d.2.e.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa.",
+            "qtype": 12,
+            "rcode": 0,
+            "answers": [],
+            "ttls": []
+        }
+    },
+    {
+        "id": "94322fb7-9d18-4f39-829a-c44cfb48a7e7",
+        "timestamp": "2025-09-27T10:06:21.411819+00:00z",
+        "mac": "e0:d3:62:c0:c7:c6",
+        "ip": null,
+        "device": "e0:d3:62:c0:c7:c6",
+        "type": "Suspecious DNS query length",
+        "severity": "High",
+        "description": "query 6.c.7.c.0.c.e.f.f.f.2.6.3.d.2.e.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa. is unusually long (5) chars)",
+        "recommendation": "check for possible DGA/malware communication",
+        "evidence": {
+            "query": "6.c.7.c.0.c.e.f.f.f.2.6.3.d.2.e.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa.",
+            "qtype": 12,
+            "rcode": 3,
+            "answers": [],
+            "ttls": []
+        }
+    },
+    {
+        "id": "0db4549d-fb11-43c4-ac5c-fa23c9b15f10",
+        "timestamp": "2025-09-27T10:06:21.551426+00:00z",
+        "mac": "e0:d3:62:c0:c7:c6",
+        "ip": null,
+        "device": "e0:d3:62:c0:c7:c6",
+        "type": "NXDOMAIN Flood",
+        "severity": "high",
+        "description": "Device triggered 5 failed DNS lookups",
+        "recommendation": "Inspect system for beaconing/misconfiguration",
+        "evidence": {
+            "query": "totallynonexistentdomain12345.com.",
+            "qtype": 28,
+            "rcode": 3,
+            "answers": [],
+            "ttls": []
+        }
+    },
+    {
+        "id": "152cd9f6-6978-4ef7-a8b8-ece64d2462f9",
+        "timestamp": "2025-09-27T10:09:43.056670+00:00z",
+        "mac": "e0:d4:e8:a2:d9:6f",
+        "ip": null,
+        "device": "e0:d4:e8:a2:d9:6f",
+        "type": "Suspecious DNS query length",
+        "severity": "High",
+        "description": "query 6.c.7.c.0.c.e.f.f.f.2.6.3.d.2.e.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa. is unusually long (5) chars)",
+        "recommendation": "check for possible DGA/malware communication",
+        "evidence": {
+            "query": "6.c.7.c.0.c.e.f.f.f.2.6.3.d.2.e.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa.",
+            "qtype": 12,
+            "rcode": 0,
+            "answers": [],
+            "ttls": []
+        }
+    },
+    {
+        "id": "b74ee658-18ca-4002-8554-8a33cfa34fb4",
+        "timestamp": "2025-09-27T10:09:43.076667+00:00z",
+        "mac": "e0:d3:62:c0:c7:c6",
+        "ip": null,
+        "device": "e0:d3:62:c0:c7:c6",
+        "type": "Suspecious DNS query length",
+        "severity": "High",
+        "description": "query 6.c.7.c.0.c.e.f.f.f.2.6.3.d.2.e.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa. is unusually long (5) chars)",
+        "recommendation": "check for possible DGA/malware communication",
+        "evidence": {
+            "query": "6.c.7.c.0.c.e.f.f.f.2.6.3.d.2.e.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa.",
+            "qtype": 12,
+            "rcode": 3,
+            "answers": [],
+            "ttls": []
+        }
+    },
+    {
+        "id": "42c0ffcf-0b45-421c-98e4-c5d38260f0d8",
+        "timestamp": "2025-09-27T10:09:43.214055+00:00z",
+        "mac": "e0:d3:62:c0:c7:c6",
+        "ip": null,
+        "device": "e0:d3:62:c0:c7:c6",
+        "type": "NXDOMAIN Flood",
+        "severity": "high",
+        "description": "Device triggered 5 failed DNS lookups",
+        "recommendation": "Inspect system for beaconing/misconfiguration",
+        "evidence": {
+            "query": "totallynonexistentdomain12345.com.",
+            "qtype": 28,
+            "rcode": 3,
+            "answers": [],
+            "ttls": []
+        }
+    },
+    {
+        "id": "dc3addf7-d123-4343-bfdd-fb63954f9dfa",
+        "timestamp": "2025-09-27T13:42:06.289581+00:00z",
+        "mac": "e0:d4:e8:a2:d9:6f",
+        "ip": null,
+        "device": "e0:d4:e8:a2:d9:6f",
+        "type": "Suspecious DNS query length",
+        "severity": "High",
+        "description": "query 6.c.7.c.0.c.e.f.f.f.2.6.3.d.2.e.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa. is unusually long (5) chars)",
+        "recommendation": "check for possible DGA/malware communication",
+        "evidence": {
+            "query": "6.c.7.c.0.c.e.f.f.f.2.6.3.d.2.e.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa.",
+            "qtype": 12,
+            "rcode": 0,
+            "answers": [],
+            "ttls": []
+        }
+    },
+    {
+        "id": "37d25b70-3db1-43e9-85d6-34e93f3655b2",
+        "timestamp": "2025-09-27T13:42:06.307550+00:00z",
+        "mac": "e0:d3:62:c0:c7:c6",
+        "ip": null,
+        "device": "e0:d3:62:c0:c7:c6",
+        "type": "Suspecious DNS query length",
+        "severity": "High",
+        "description": "query 6.c.7.c.0.c.e.f.f.f.2.6.3.d.2.e.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa. is unusually long (5) chars)",
+        "recommendation": "check for possible DGA/malware communication",
+        "evidence": {
+            "query": "6.c.7.c.0.c.e.f.f.f.2.6.3.d.2.e.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa.",
+            "qtype": 12,
+            "rcode": 3,
+            "answers": [],
+            "ttls": []
+        }
+    },
+    {
+        "id": "9a3b32cd-c316-4f83-86eb-c4d8c0bbfc67",
+        "timestamp": "2025-09-27T13:42:06.449056+00:00z",
+        "mac": "e0:d3:62:c0:c7:c6",
+        "ip": null,
+        "device": "e0:d3:62:c0:c7:c6",
+        "type": "NXDOMAIN Flood",
+        "severity": "high",
+        "description": "Device triggered 5 failed DNS lookups",
+        "recommendation": "Inspect system for beaconing/misconfiguration",
+        "evidence": {
+            "query": "totallynonexistentdomain12345.com.",
+            "qtype": 28,
+            "rcode": 3,
+            "answers": [],
+            "ttls": []
+        }
+    }
+]

@@ -1,0 +1,33 @@
+{
+    "e0:d3:62:c0:c7:c6": {
+        "ip": "20.189.173.28",
+        "first_seen": "2025-09-27T15:12:43.285353",
+        "latest_seen": "2025-09-28T10:20:35.265616",
+        "dns_logs": [
+            {
+                "ts": "2025-09-27T15:12:45.645423",
+                "src_ip": null,
+                "query": "mobile.events.data.microsoft.com.",
+                "qtype": 28,
+                "rcode": 0,
+                "answers": [],
+                "ttls": []
+            },
+            {
+                "ts": "2025-09-27T15:12:45.647460",
+                "src_ip": null,
+                "query": "mobile.events.data.microsoft.com.",
+                "qtype": 1,
+                "rcode": 0,
+                "answers": [],
+                "ttls": []
+            }
+        ]
+    },
+    "e0:d4:e8:a2:d9:6f": {
+        "ip": "192.168.0.4",
+        "first_seen": "2025-09-28T10:20:25.994954",
+        "latest_seen": "2025-09-28T10:20:35.312511",
+        "dns_logs": []
+    }
+}
